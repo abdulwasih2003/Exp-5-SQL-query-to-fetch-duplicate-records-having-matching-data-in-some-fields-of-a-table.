@@ -1,16 +1,18 @@
 # Exp-5 SQL query to fetch duplicate records having matching data in some fields of a table.
-## AIM:
+## Aim:
 To write a sql query to fetch duplicate records having matching data in some fields of a table.
-## PROCEDURE:
-### STEP 1:
-create database ORG.
-### STEP 2:
-create table Worker,Bonus,Title.
-### STEP 3:
+## Algorithm:
+### Step 1:
+Create database ORG.
+### Step 2:
+Create table Worker,Bonus,Title.
+### Step 3:
 Insert Value to the tables.
-### STEP 4:
+### Step 4:
 Select records having matching data in some fields.
-## PROGRAM:
+### Step 5:
+Display the result.
+## Program:
 ```sql
 CREATE DATABASE ORG;
 SHOW DATABASES;
@@ -80,7 +82,7 @@ FROM Worker
 GROUP BY DEPARTMENT
 HAVING COUNT(*) > 1;
 ```
-## OUTPUT:
+## Output:
 ![image](https://github.com/Karthikeyan21001828/DBMS_EX05/assets/93427303/026191c8-ce92-43e3-b1af-46f0579e7a20)
-## RESULT:
+## Result:
 A sql query to fetch duplicate records having matching data in some fields of a table has been executed.
